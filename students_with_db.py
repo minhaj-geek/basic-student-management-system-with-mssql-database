@@ -1,8 +1,8 @@
 import pyodbc
 conn=pyodbc.connect(
     "Driver={SQL Server Native Client 11.0};"
-    "Server=USER-PC;"
-    "Database=python_db;"
+    "Server=;"  #Enter Server name
+    "Database=;" #Enter Database name
     "Trusted_Connection=yes;"
 )
 
